@@ -1,7 +1,7 @@
 package waterworld;
 
 /*
- * Class for tickets, has 
+ * Class for tickets
  */
 public class Ticket {
     int ride_id; // has the ride corresponding to the ticket

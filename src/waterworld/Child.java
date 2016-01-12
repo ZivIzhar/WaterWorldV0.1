@@ -12,6 +12,7 @@ public class Child {
     double height; // child's height in centimetres
 
     LinkedList<Ticket> tickets; // all the tickets in the visitor's possession
+    private int ticket_id;
 
     // Child c'tor
     public Child(int n_age, double n_height, int n_identity, int n_curr_ride) {
