@@ -1,7 +1,7 @@
 package waterworld;
 
 public class Main {
-
+    // Message transferred
     public static void main(String[] args) {
         Child child = new Child(13, 187.1, 1270, 0);
         Ticket new_t = new Ticket(12);

@@ -19,7 +19,7 @@ public class Child {
         this.height = n_height;
         this.identity = n_identity;
         this.curr_ride = n_curr_ride;
-        this.tickets = new LinkedList<Ticket>();
+        this.tickets = new LinkedList<>(); // removed explicit type
     }
 
     // adds a new ticket to the list
@@ -42,7 +42,7 @@ public class Child {
     // false otherwise
     boolean has_ticket(int ticket_id) {
         for (Ticket t : tickets)
-            if (t.is_for_ride(ticket_id) == true)
+            if (t.is_for_ride(ticket_id)) // changed
                 return true;
         return false;
     }
