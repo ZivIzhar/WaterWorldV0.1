@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<Rides>
+<Ride>
+    <id>0</id>
+    <MinAge>7</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>1</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>false</Extreme>
+</Ride>
+<Ride>
+    <id>2</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>3</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>false</Extreme>
+</Ride>
+<Ride>
+    <id>4</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>5</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>6</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>7</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>8</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>false</Extreme>
+</Ride>
+<Ride>
+    <id>9</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>true</Extreme>
+</Ride>
+<Ride>
+    <id>10</id>
+    <MinAge>5</MinAge>
+    <MinHeight>1.4</MinHeight>
+    <Capacity>100</Capacity>
+    <Extreme>false</Extreme>
+</Ride>
+</Rides>

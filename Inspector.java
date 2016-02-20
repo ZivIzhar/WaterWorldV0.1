@@ -7,9 +7,9 @@ public class Inspector {
 	List<Integer> allMyRides;
 	DB<Ride> db;
 	int nextAvailableRideID;
-	Inspector(DB<Ride> db,int nextAvailableRideID) {
+	Inspector(DB<Ride> db,int nextAvailableRideID,List<Integer> allIDs) {
 		this.db = db;
-		allMyRides = new ArrayList<Integer>();
+		allMyRides = allIDs;
 		this.nextAvailableRideID=nextAvailableRideID;
 	}
 	
@@ -70,6 +70,10 @@ public class Inspector {
 			//OUTPUT ("RideID : Sales")
 			System.out.println("Ride " + id + " Sold:" + sales);
 		}
+	}
+	
+	List<Integer> getMyRides() {
+		return allMyRides;
 	}
 	
 	
